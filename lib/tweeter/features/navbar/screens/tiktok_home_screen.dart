@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
+import 'package:tiktok_clone/constants/sizes.dart';
 import 'package:tiktok_clone/tweeter/features/navbar/widgets/post_basic_form.dart';
 import 'package:tiktok_clone/utils.dart';
 
@@ -71,8 +72,8 @@ class TiktokHomeScreenState extends ConsumerState<TiktokHomeScreen> {
             Center(
               child: SvgPicture.asset(
                 'assets/images/threads.svg',
-                width: 34,
-                height: 34,
+                width: Sizes.size96,
+                height: Sizes.size96,
                 colorFilter: ColorFilter.mode(
                   isDarkMode(ref) ? Colors.white : Colors.black,
                   BlendMode.srcIn,
