@@ -93,7 +93,7 @@ class ProfileTweetScreenState extends ConsumerState<ProfileTweetScreen> {
                             Row(
                               children: [
                                 Text(
-                                  "hsmchoi_mobbin",
+                                  "hsmchoi",
                                   style: Theme.of(context).textTheme.bodyLarge,
                                 ),
                                 const Gap(5),

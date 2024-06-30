@@ -102,7 +102,7 @@ class _WriteScreenState extends State<WriteScreen> {
                                 backgroundColor: null,
                                 radius: 20,
                                 backgroundImage: NetworkImage(
-                                  "https://avatars.githubusercontent.com/u/88703915",
+                                  "https://avatars.githubusercontent.com/u/86753850?s=96&v=4",
                                 ),
                               ),
                               const Gap(5),
@@ -121,7 +121,7 @@ class _WriteScreenState extends State<WriteScreen> {
                                   backgroundColor: null,
                                   radius: 13,
                                   backgroundImage: NetworkImage(
-                                    "https://avatars.githubusercontent.com/u/88703915",
+                                    "https://avatars.githubusercontent.com/u/86753850?s=96&v=4",
                                   ),
                                 ),
                               ),
@@ -138,7 +138,7 @@ class _WriteScreenState extends State<WriteScreen> {
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
                                       Text(
-                                        "hary_maybe",
+                                        "hsm_choi",
                                         style: StyleGuide.threadTitleStyle(),
                                       ),
                                     ],
